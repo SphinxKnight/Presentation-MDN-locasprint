@@ -1,113 +1,183 @@
 <!doctype html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-	<title>Présentation modèle MozFr</title>
-
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/mozilla.css">
-
-	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
-
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement( 'link' );
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName( 'head' )[0].appendChild( link );
-	</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Locasprint 2017 - MDN</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/mozilla.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
 </head>
+
 <body>
-	<div class="reveal">
-		<div class="slides">
-			<section data-markdown>
-				<script type="text/template">
-					# Titre exemple
-					## Titre 2
-					### Titre 3
-					#### Titre 4
-				</script>
-			</section>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown>
+                <script type="text/template">
+                    # La localisation et MDN 
+                    ![logo](./images/logo_mdn.png)
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : Qu'est-ce que c'est ? 
+                    [Ce site : https://developer.mozilla.org](https://developer.mozilla.org) 
+                    ![logo](./images/mdn_mix1.png)
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : Qu'est-ce que c'est ?
+                    ![logo](./images/mdn_mix2.png)
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : Comment contribuer ?
+                    * Créer un compte [GitHub](https://github.com)
+                    * Se connecter à MDN (en haut à droite)
+                    * ![le bouton d'édition](./images/edit.png)
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : Comment contribuer ?
+                    ![l'écran d'édition](./images/edition.png)
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : Éditer une page
+                    ![l'écran d'édition](./images/editeur.png)
+                    N.B. {{CeciEstUneMacro}}
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : Éditer une page
+                    ![l'écran d'édition](./images/editeur2.png)
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : Que faire ?
+                    * [Traduire l'interface du site sur Pontoon](https://pontoon.mozilla.org/fr/mdn/)
+                    * [Maintenir les pages prioritaires](https://developer.mozilla.org/fr/docs/MDN/Doc_status/l10nPriority)
+                    * [Relire les pages avec une revue demandée](https://developer.mozilla.org/fr/docs/needs-review/editorial)
+                    * Traduire de nouvelles pages et les maintenir
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : Les sections
+                    * [Glossaire](https://developer.mozilla.org/fr/docs/MDN/Doc_status/Glossary)
+                    * [*Learning Area*](https://developer.mozilla.org/fr/docs/MDN/Doc_status/Learn)
+                    * [HTTP](https://developer.mozilla.org/fr/docs/MDN/Doc_status/HTTP)
+                    * [SVG](https://developer.mozilla.org/fr/docs/MDN/Doc_status/SVG)
+                    * [Les (nombreuses) API web](https://developer.mozilla.org/fr/docs/MDN/Doc_status/API)
+                        * DOM
+                        * IndexedDB
+                        * CSSOM
+                        * ServiceWorkers…
+                    * [HTML]((https://developer.mozilla.org/fr/docs/MDN/Doc_status/HTML), [JavaScript]((https://developer.mozilla.org/fr/docs/MDN/Doc_status/JavaScript), [CSS]((https://developer.mozilla.org/fr/docs/MDN/Doc_status/CSS)
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : La maintenance : les pages de « Doc Status »
+                    ![une page de Doc Status](./images/doc-status.png)
+                    N.B. Il faut forcer le rafraîchissement.
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                    ##MDN : après ce week-end
+                    * [La liste de diffusion mdn](https://lists.mozilla.org/listinfo/dev-mdc)
+                    * [La liste de diffusion mozfr](https://mozfr.org/liste/)
+                    * [Le canal IRC #mdn](https://kiwiirc.com/client/irc.mozilla.org:6667/mdn/?nick=l10nFR?)
+                    * [Les MercrediDoc à Paris](https://www.meetup.com/fr-FR/Mozilla-Developer-Network/)
+                </script>
+            </section>
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+        slidenumber: true,
+        center: true,
 
-			<section data-markdown>
-				<script type="text/template">
-					![logo](./images/logo.png)
-					* Une petite
-					* liste
-
-					[Un lien](https://mozfr.org)
-					
-					    console.log("du code");
-				</script>
-			</section>
-		</div>
-	</div>
-
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
-
-	<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
-				slidenumber: true,
-				center: true,
-
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-				{ src: 'plugin/markdown/marked.js' },
-				{ src: 'plugin/markdown/markdown.js' },
-				{ src: 'plugin/notes/notes.js', async: true },
-				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-
-	<style type="text/css">
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [{
+            src: 'plugin/markdown/marked.js'
+        }, {
+            src: 'plugin/markdown/markdown.js'
+        }, {
+            src: 'plugin/notes/notes.js',
+            async: true
+        }, {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+                hljs.initHighlightingOnLoad();
+            }
+        }]
+    });
+    </script>
+    <style type="text/css">
     /* 1. Style header/footer <div> so they are positioned as desired. */
+    
     #header-left {
         position: absolute;
         top: 5%;
         left: 5%;
         font-size: 0.5em;
     }
+    
     #header-right {
         position: absolute;
         top: 5%;
         right: 5%;
         font-size: 0.5em;
     }
+    
     #footer-left {
         position: absolute;
         bottom: 5%;
         left: 5%;
         font-size: 0.5em;
     }
-</style>
-
-<!-- 2. Create hidden header/footer <div> -->
-<div id="hidden" style="display:none;">
-    <div id="header">
-        <div id="footer-left"><img src="./images/logo.png" height="5%" width="5%"/>Communauté Mozilla francophone - CC-BY-SA</div>
+    </style>
+    <!-- 2. Create hidden header/footer <div> -->
+    <div id="hidden" style="display:none;">
+        <div id="header">
+            <div id="footer-left"><img src="./images/logo.png" height="5%" width="5%" />Communauté Mozilla francophone - CC-BY-SA</div>
+        </div>
     </div>
-</div>
-
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script type="text/javascript">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript">
     // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
     var header = $('#header').html();
-    if ( window.location.search.match( /print-pdf/gi ) ) {
-        Reveal.addEventListener( 'ready', function( event ) {
+    if (window.location.search.match(/print-pdf/gi)) {
+        Reveal.addEventListener('ready', function(event) {
             $('.slide-background').append(header);
         });
-    }
-    else {
+    } else {
         $('div.reveal').append(header);
-   }
-</script>
-	</body>
-	</html>
+    }
+    </script>
+</body>
+
+</html>
